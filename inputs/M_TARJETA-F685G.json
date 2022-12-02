@@ -1,0 +1,92 @@
+{
+    "table_name": "M_TARJETA",
+    "bucket_name": "ue1stgdesaas3ftp001",
+    "path": "RAW-SFTP/F685",
+    "filename":"F685G.zip",
+    "data": [
+        {
+            "order": 1,
+            "type": "VARCHAR(100)",
+            "size": 19,
+            "name": "cod_tarjeta"
+        },
+        {
+            "order": 2,
+            "type": "VARCHAR(100)",
+            "size": 1,
+            "name": "cod_estadotarjeta"
+        },
+        {
+            "order": 3,
+            "type": "VARCHAR(100)",
+            "size": 20,
+            "name": "des_estadotarjeta"
+        },
+        {
+            "order": 4,
+            "type": "VARCHAR(100)",
+            "size": 4,
+            "name": "tip_tarjeta"
+        },
+        {
+            "order": 5,
+            "type": "VARCHAR(100)",
+            "size": 20,
+            "name": "des_tiptarjeta"
+        },
+        {
+            "order": 6,
+            "type": "VARCHAR(100)",
+            "size": 10,
+            "name": "cod_personath"
+        },
+        {
+            "order": 7,
+            "type": "VARCHAR(100)",
+            "size": 10,
+            "name": "cod_persona"
+        },
+        {
+            "order": 8,
+            "type": "VARCHAR(100)",
+            "size": 3,
+            "name": "cod_cuenta"
+        },
+        {
+            "order": 9,
+            "type": "TIMESTAMP",
+            "size": 8,
+            "name": "fec_solicitud"
+        },
+        {
+            "order": 10,
+            "type": "TIMESTAMP",
+            "size": 8,
+            "name": "fec_afiliacion"
+        },
+        {
+            "order": 11,
+            "type": "VARCHAR(100)",
+            "size": 4,
+            "name": "des_afiliacioncadena"
+        },
+        {
+            "order": 12,
+            "type": "VARCHAR(100)",
+            "size": 4,
+            "name": "des_afiliaciontienda"
+        },
+        {
+            "order": 13,
+            "type": "VARCHAR(100)",
+            "size": 1,
+            "name": "tip_tarjetafinanciera"
+        },
+        {
+            "order": 14,
+            "type": "VARCHAR(100)",
+            "size": 15,
+            "name": "des_afiliacion"
+        }
+    ]
+}

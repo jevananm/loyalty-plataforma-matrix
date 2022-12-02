@@ -1,0 +1,128 @@
+{
+    "table_name": "M_MOVIMIENTOFINANCIERO",
+    "bucket_name": "ue1stgdesaas3ftp001",
+    "path": "RAW-SFTP/F685",
+    "filename": "F685D.TXT",
+    "data": [
+        {
+            "order": 1,
+            "type": "VARCHAR(100)",
+            "size": 5,
+            "name": "COD_ESQUEMA"
+        },
+        {
+            "order": 2,
+            "type": "VARCHAR(100)",
+            "size": 3,
+            "name": "TIP_PROCESO"
+        },
+        {
+            "order": 3,
+            "type": "VARCHAR(100)",
+            "size": 11,
+            "name": "COD_PROCESOADM"
+        },
+        {
+            "order": 4,
+            "type": "VARCHAR(100)",
+            "size": 11,
+            "name": "COD_SECPROCESOADM"
+        },
+        {
+            "order": 5,
+            "type": "VARCHAR(100)",
+            "size": 10,
+            "name": "COD_PERSONATH"
+        },
+        {
+            "order": 6,
+            "type": "VARCHAR(100)",
+            "size": 9,
+            "name": "COD_SEGUIMIENTO"
+        },
+        {
+            "order": 7,
+            "type": "VARCHAR(100)",
+            "size": 19,
+            "name": "COD_TARJETA"
+        },
+        {
+            "order": 8,
+            "type": "TIMESTAMP",
+            "size": 8,
+            "name": "FEC_TRANSACCION"
+        },
+        {
+            "order": 9,
+            "type": "DECIMAL(24,6)",
+            "size": 15,
+            "name": "IMP_SOLESPAGADOS"
+        },
+        {
+            "order": 10,
+            "type": "VARCHAR(100)",
+            "size": 5,
+            "name": "COD_GURO"
+        },
+        {
+            "order": 11,
+            "type": "VARCHAR(1000)",
+            "size": 100,
+            "name": "DES_GIRO"
+        },
+        {
+            "order": 12,
+            "type": "VARCHAR(100)",
+            "size": 15,
+            "name": "COD_COMERCIO"
+        },
+        {
+            "order": 13,
+            "type": "VARCHAR(1000)",
+            "size": 150,
+            "name": "DES_COMERCIO"
+        },
+        {
+            "order": 14,
+            "type": "VARCHAR(100)",
+            "size": 5,
+            "name": "COD_TRANSACCION1"
+        },
+        {
+            "order": 15,
+            "type": "VARCHAR(1000)",
+            "size": 40,
+            "name": "DES_CODIGOTRANSACCION1"
+        },
+        {
+            "order": 16,
+            "type": "VARCHAR(100)",
+            "size": 1,
+            "name": "TIP_TRANSACCION"
+        },
+        {
+            "order": 17,
+            "type": "VARCHAR(100)",
+            "size": 7,
+            "name": "COD_TRANSACCION2"
+        },
+        {
+            "order": 18,
+            "type": "VARCHAR(1000)",
+            "size": 100,
+            "name": "DES_CODIGOTRANSACCION2"
+        },
+        {
+            "order": 19,
+            "type": "VARCHAR(100)",
+            "size": 3,
+            "name": "TIP_OPERACION"
+        },
+        {
+            "order": 20,
+            "type": "VARCHAR(1000)",
+            "size": 100,
+            "name": "DES_OPERACION"
+        }
+    ]
+}

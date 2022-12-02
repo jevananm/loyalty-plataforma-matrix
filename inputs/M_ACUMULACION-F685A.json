@@ -1,0 +1,20 @@
+{
+    "table_name": "M_ACUMULACION",
+    "bucket_name": "ue1stgdesaas3ftp001",
+    "path": "RAW-SFTP/F685",
+    "filename":"F685A.TXT",
+    "data": [
+        {
+            "order": 1,
+            "type": "VARCHAR(100)",
+            "size": 7,
+            "name": "COD_PROMOCIONACUMULACION"
+        },
+        {
+            "order": 2,
+            "type": "VARCHAR(1000)",
+            "size": 100,
+            "name": "DES_PROMOCIONACUMULACION"
+        }
+    ]
+}

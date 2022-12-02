@@ -1,0 +1,56 @@
+{
+    "table_name": "M_PUNTOVENTA",
+    "bucket_name": "ue1stgdesaas3ftp001",
+    "path": "RAW-SFTP/F685",
+    "filename": "F685F.TXT",
+    "data": [
+        {
+            "order": 1,
+            "type": "VARCHAR(100)",
+            "size": 4,
+            "name": "COD_CADENA"
+        },
+        {
+            "order": 2,
+            "type": "VARCHAR(1000)",
+            "size": 50,
+            "name": "DES_PUNTOVENTA"
+        },
+        {
+            "order": 3,
+            "type": "VARCHAR(100)",
+            "size": 4,
+            "name": "COD_TIENDA"
+        },
+        {
+            "order": 4,
+            "type": "VARCHAR(1000)",
+            "size": 50,
+            "name": "DES_TIENDA"
+        },
+        {
+            "order": 5,
+            "type": "VARCHAR(100)",
+            "size": 25,
+            "name": "COD_DEPARTAMENTO"
+        },
+        {
+            "order": 6,
+            "type": "VARCHAR(100)",
+            "size": 25,
+            "name": "COD_PROVINCIA"
+        },
+        {
+            "order": 7,
+            "type": "VARCHAR(100)",
+            "size": 25,
+            "name": "COD_DISTRITO"
+        },
+        {
+            "order": 8,
+            "type": "BOOLEAN",
+            "size": 1,
+            "name": "FLG_DIRECCIONGPS"
+        }
+    ]
+}

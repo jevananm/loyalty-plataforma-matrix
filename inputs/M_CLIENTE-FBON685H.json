@@ -1,0 +1,194 @@
+{
+    "table_name": "M_CLIENTE",
+    "bucket_name": "ue1stgdesaas3ftp001",
+    "path": "RAW-SFTP/F685",
+    "filename": "F685H.TXT",
+    "data": [
+        {
+            "order": 1,
+            "type": "VARCHAR(100)",
+            "size": 10,
+            "name": "COD_PERSONATH"
+        },
+        {
+            "order": 2,
+            "type": "VARCHAR(100)",
+            "size": 2,
+            "name": "TIP_PERSONA"
+        },
+        {
+            "order": 3,
+            "type": "VARCHAR(1000)",
+            "size": 20,
+            "name": "DES_TIPOPERSONA"
+        },
+        {
+            "order": 4,
+            "type": "VARCHAR(100)",
+            "size": 4,
+            "name": "TIP_DOCUMENTOIDENTIDAD"
+        },
+        {
+            "order": 5,
+            "type": "VARCHAR(1000)",
+            "size": 10,
+            "name": "DES_DOCUMENTOIDENTIDAD"
+        },
+        {
+            "order": 6,
+            "type": "BOOLEAN",
+            "size": 1,
+            "name": "FLG_DOCUMENTOIDENTIDAD"
+        },
+        {
+            "order": 7,
+            "type": "BOOLEAN",
+            "size": 1,
+            "name": "FLG_RUC"
+        },
+        {
+            "order": 8,
+            "type": "VARCHAR(1000)",
+            "size": 1,
+            "name": "DES_NOMBRE"
+        },
+        {
+            "order": 9,
+            "type": "VARCHAR(1000)",
+            "size": 1,
+            "name": "DES_APEPATERNO"
+        },
+        {
+            "order": 10,
+            "type": "VARCHAR(1000)",
+            "size": 1,
+            "name": "DES_APEMATERNO"
+        },
+        {
+            "order": 11,
+            "type": "TIMESTAMP",
+            "size": 8,
+            "name": "FEC_NACIMIENTO"
+        },
+        {
+            "order": 12,
+            "type": "INTEGER",
+            "size": 4,
+            "name": "CAN_EDAD"
+        },
+        {
+            "order": 13,
+            "type": "VARCHAR(100)",
+            "size": 1,
+            "name": "TIP_SEXO"
+        },
+        {
+            "order": 14,
+            "type": "VARCHAR(100)",
+            "size": 1,
+            "name": "TIP_ESTADOCIVIL"
+        },
+        {
+            "order": 15,
+            "type": "BOOLEAN",
+            "size": 1,
+            "name": "FLG_TENENCIAHIJOS"
+        },
+        {
+            "order": 16,
+            "type": "BOOLEAN",
+            "size": 1,
+            "name": "FLG_TELEFONOFIJO"
+        },
+        {
+            "order": 17,
+            "type": "BOOLEAN",
+            "size": 1,
+            "name": "FLG_TELEFONOCELULAR"
+        },
+        {
+            "order": 18,
+            "type": "BOOLEAN",
+            "size": 1,
+            "name": "FLG_CONSENTIMIENTOLLAMADA"
+        },
+        {
+            "order": 19,
+            "type": "BOOLEAN",
+            "size": 1,
+            "name": "FLG_CORREO"
+        },
+        {
+            "order": 20,
+            "type": "BOOLEAN",
+            "size": 1,
+            "name": "FLG_CONSENTIMIENTOEMAIL"
+        },
+        {
+            "order": 21,
+            "type": "BOOLEAN",
+            "size": 1,
+            "name": "FLG_DIRECCION"
+        },
+        {
+            "order": 22,
+            "type": "BOOLEAN",
+            "size": 1,
+            "name": "FLG_DIRECCIONERROR"
+        },
+        {
+            "order": 23,
+            "type": "BOOLEAN",
+            "size": 1,
+            "name": "FLG_DIRECCIONGPS"
+        },
+        {
+            "order": 24,
+            "type": "VARCHAR(100)",
+            "size": 1,
+            "name": "TIP_NIVELSOCIOECONOMICO"
+        },
+        {
+            "order": 25,
+            "type": "TIMESTAMP",
+            "size": 8,
+            "name": "FEC_AFILIACION"
+        },
+        {
+            "order": 26,
+            "type": "VARCHAR(1000)",
+            "size": 4,
+            "name": "DES_AFILIACIONCADENA"
+        },
+        {
+            "order": 27,
+            "type": "TIMESTAMP",
+            "size": 8,
+            "name": "FEC_CREACION"
+        },
+        {
+            "order": 28,
+            "type": "TIMESTAMP",
+            "size": 8,
+            "name": "FEC_ULTIMAMODIFICACION"
+        },
+        {
+            "order": 29,
+            "type": "BOOLEAN",
+            "size": 1,
+            "name": "FLG_AUTORIZACOMPARTIRDATOSOCIO"
+        },
+        {
+            "order": 30,
+            "type": "BOOLEAN",
+            "size": 1,
+            "name": "FLG_CLIENTEFALLECIDO"
+        },
+        {
+            "order": 31,
+            "type": "BOOLEAN",
+            "size": 1,
+            "name": "FLG_AUTOCANJE"
+        }
+    ]
+}

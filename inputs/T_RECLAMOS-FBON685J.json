@@ -1,0 +1,110 @@
+{
+    "table_name": "T_RECLAMOS",
+    "bucket_name": "ue1stgdesaas3ftp001",
+    "path": "RAW-SFTP/F685",
+    "filename": "F685J.TXT",
+    "data": [
+        {
+            "order": 1,
+            "type": "VARCHAR(100)",
+            "size": 15,
+            "name": "COD_REGISTRO"
+        },
+        {
+            "order": 2,
+            "type": "VARCHAR(100)",
+            "size": 10,
+            "name": "COD_PERSONATH"
+        },
+        {
+            "order": 3,
+            "type": "BIGINT",
+            "size": 19,
+            "name": "NUM_TARJETA"
+        },
+        {
+            "order": 4,
+            "type": "VARCHAR(100)",
+            "size": 5,
+            "name": "COD_RECLAMO"
+        },
+        {
+            "order": 5,
+            "type": "VARCHAR(1000)",
+            "size": 30,
+            "name": "DES_RECLAMO"
+        },
+        {
+            "order": 6,
+            "type": "VARCHAR(100)",
+            "size": 5,
+            "name": "COD_ESTADORECLAMO"
+        },
+        {
+            "order": 7,
+            "type": "VARCHAR(1000)",
+            "size": 25,
+            "name": "DES_ESTADORECLAMO"
+        },
+        {
+            "order": 8,
+            "type": "VARCHAR(100)",
+            "size": 10,
+            "name": "NOM_USUARIORECLAMO"
+        },
+        {
+            "order": 9,
+            "type": "TIMESTAMP",
+            "size": 8,
+            "name": "FEC_REGISTRORECLAMO"
+        },
+        {
+            "order": 10,
+            "type": "TIMESTAMP",
+            "size": 8,
+            "name": "FEH_REGISTRORECLAMO"
+        },
+        {
+            "order": 11,
+            "type": "VARCHAR(1000)",
+            "size": 4,
+            "name": "DES_REGISTRORECLAMOCADENA"
+        },
+        {
+            "order": 12,
+            "type": "VARCHAR(1000)",
+            "size": 4,
+            "name": "DES_REGISTRORECLAMOTIENDA"
+        },
+        {
+            "order": 13,
+            "type": "VARCHAR(100)",
+            "size": 10,
+            "name": "NOM_USUARIOATENCION"
+        },
+        {
+            "order": 14,
+            "type": "TIMESTAMP",
+            "size": 8,
+            "name": "FEC_ATENCIONRECLAMO"
+        },
+        {
+            "order": 15,
+            "type": "TIMESTAMP",
+            "size": 8,
+            "name": "FEH_ATENCIONRECLAMO"
+        },
+        {
+            "order": 16,
+            "type": "VARCHAR(1000)",
+            "size": 4,
+            "name": "DES_ATENCIONRECLAMOCADENA"
+        },
+        {
+            "order": 17,
+            "type": "VARCHAR(1000)",
+            "size": 4,
+            "name": "DES_ATENCIONRECLAMOTIENDA"
+        }
+    ]
+}

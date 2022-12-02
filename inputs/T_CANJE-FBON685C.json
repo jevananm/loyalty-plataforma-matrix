@@ -1,0 +1,116 @@
+{
+    "table_name": "T_CANJE",
+    "bucket_name": "ue1stgdesaas3ftp001",
+    "path": "RAW-SFTP/F685",
+    "filename": "F685C.zip",
+    "data": [
+        {
+            "order": 1,
+            "type": "VARCHAR(100)",
+            "size": 10,
+            "name": "COD_PERSONA"
+        },
+        {
+            "order": 2,
+            "type": "VARCHAR(100)",
+            "size": 3,
+            "name": "COD_CUENTA"
+        },
+        {
+            "order": 3,
+            "type": "VARCHAR(1000)",
+            "size": 10,
+            "name": "DES_ESTACIONTRABAJO"
+        },
+        {
+            "order": 4,
+            "type": "VARCHAR(100)",
+            "size": 20,
+            "name": "TIP_CANJE"
+        },
+        {
+            "order": 5,
+            "type": "BIGINT",
+            "size": 19,
+            "name": "NUM_TARJETA"
+        },
+        {
+            "order": 6,
+            "type": "VARCHAR(1000)",
+            "size": 4,
+            "name": "DES_CANJECADENA"
+        },
+        {
+            "order": 7,
+            "type": "VARCHAR(1000)",
+            "size": 4,
+            "name": "DES_CANJETIENDA"
+        },
+        {
+            "order": 8,
+            "type": "TIMESTAMP",
+            "size": 8,
+            "name": "FEC_TRANSACCION"
+        },
+        {
+            "order": 9,
+            "type": "TIMESTAMP",
+            "size": 8,
+            "name": "FEH_TRANSACCION"
+        },
+        {
+            "order": 10,
+            "type": "VARCHAR(1000)",
+            "size": 6,
+            "name": "DES_CAJA"
+        },
+        {
+            "order": 11,
+            "type": "BIGINT",
+            "size": 6,
+            "name": "NUM_SECUENCIA"
+        },
+        {
+            "order": 12,
+            "type": "VARCHAR(100)",
+            "size": 8,
+            "name": "COD_CAJERACENCOSUD"
+        },
+        {
+            "order": 13,
+            "type": "DECIMAL(24,6)",
+            "size": 15,
+            "name": "IMP_SOLESPAGADOS"
+        },
+        {
+            "order": 14,
+            "type": "BIGINT",
+            "size": 15,
+            "name": "NUM_PUNTOSCANJEADOS"
+        },
+        {
+            "order": 15,
+            "type": "BIGINT",
+            "size": 15,
+            "name": "NUM_PUNTOSANTESCANJE"
+        },
+        {
+            "order": 16,
+            "type": "VARCHAR(100)",
+            "size": 10,
+            "name": "COD_PERSONATH"
+        },
+        {
+            "order": 17,
+            "type": "VARCHAR(1000)",
+            "size": 1,
+            "name": "DES_ESTADOCANJE"
+        },
+        {
+            "order": 18,
+            "type": "VARCHAR(100)",
+            "size": 18,
+            "name": "COD_CANJE"
+        }
+    ]
+}

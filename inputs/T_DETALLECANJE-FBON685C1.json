@@ -1,0 +1,101 @@
+{
+    "table_name": "T_DETALLECANJE",
+    "bucket_name": "ue1stgdesaas3ftp001",
+    "path": "RAW-SFTP/F685",
+    "filename": [
+        "F685C1_B.zip",
+        "F685C1_A.zip"
+    ],
+    "data": [
+        {
+            "order": 1,
+            "type": "VARCHAR(100)",
+            "size": 18,
+            "name": "COD_CANJE"
+        },
+        {
+            "order": 2,
+            "type": "VARCHAR(100)",
+            "size": 3,
+            "name": "ID_SECUUENCIAL"
+        },
+        {
+            "order": 3,
+            "type": "VARCHAR(100)",
+            "size": 15,
+            "name": "COD_PRODUCTO"
+        },
+        {
+            "order": 4,
+            "type": "VARCHAR(1000)",
+            "size": 25,
+            "name": "DES_CANJE"
+        },
+        {
+            "order": 5,
+            "type": "VARCHAR(1000)",
+            "size": 30,
+            "name": "DES_RUBRO"
+        },
+        {
+            "order": 6,
+            "type": "VARCHAR(1000)",
+            "size": 30,
+            "name": "DES_CATEGORIA"
+        },
+        {
+            "order": 7,
+            "type": "VARCHAR(1000)",
+            "size": 30,
+            "name": "DES_FAMILIA"
+        },
+        {
+            "order": 8,
+            "type": "VARCHAR(100)",
+            "size": 5,
+            "name": "COD_CAMPAÑA"
+        },
+        {
+            "order": 9,
+            "type": "VARCHAR(1000)",
+            "size": 50,
+            "name": "DES_CAMPAÑA"
+        },
+        {
+            "order": 10,
+            "type": "INTEGER",
+            "size": 6,
+            "name": "CAN_CANJE"
+        },
+        {
+            "order": 11,
+            "type": "INTEGER",
+            "size": 6,
+            "name": "CAN_CANJEDEVUELTA"
+        },
+        {
+            "order": 12,
+            "type": "BIGINT",
+            "size": 15,
+            "name": "NUM_PUNTOSPRODUCTO"
+        },
+        {
+            "order": 13,
+            "type": "VARCHAR(1000)",
+            "size": 1,
+            "name": "DES_SIGNO"
+        },
+        {
+            "order": 14,
+            "type": "DECIMAL(24,6)",
+            "size": 15,
+            "name": "IMP_PRECIOUNUTARIO"
+        },
+        {
+            "order": 15,
+            "type": "VARCHAR(100)",
+            "size": 4,
+            "name": "COD_ALMACEN"
+        }
+    ]
+}
